@@ -1,68 +1,9 @@
 @import "fonts";
+@import "libs/clean.scss";
+//@import "libs/mediaquery.scss";
 
 body {
-	font-family: ErmilovBold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-	background-color: green;
-
-	span {
-		color: orange;
-	}
-
-}
-
-@media (max-width: 768px) {
-	span {
-		font-size: 20px;
-	}
-}
-
-@media (max-width: 768px) {
-	body {
-		background-color: orange;
-	}
-}
-
-.background-test {
-	width: 200px;
-	height: 200px;
-	background-image: url("@img/image2.jpg");
-	background-size: cover;
-}
-
-.mantest {
-	width: 200px;
-	fill: red;
-}
-
-.facebook {
-	cursor: pointer;
-	padding: 0;
-	margin: 0;
-}
-
-.man {
-	fill: red;
-	cursor: pointer;
-	transition: 0.5s;
-	width: 100%;
-	position: relative;
-	left: 50%;
-	transform: translateX(-2px);
-}
-
-.man:hover {
-	fill: orange;
-}
-
-.face {
-	width: 100px;
-	height: 100px;
-	border: 1px solid red;
-	display: block;
-	text-align: center;
-	text-align: left;
-	position: relative;
-}
+@media (max-width: 768px) {}
